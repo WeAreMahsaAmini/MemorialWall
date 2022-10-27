@@ -15,12 +15,12 @@ const Modal = ({ person }: { person: Person }) => {
             width="360"
             height="510"
             src={person.image}
-            alt={`${person.name} ${person.family} - ${person.full_name_persian}`}
+            alt={`${person.name} ${person.family} - ${person.name_persian + ' ' + person.family_persian}`}
           />
         </div>
         <div className="min-w-0 relative flex-auto bg-gray-700 p-5 text-white">
           <h2 className="font-semibold truncate pr-20">
-            {person.name + ' ' + person.family} - {person.full_name_persian}
+            {person.name + ' ' + person.family} - {person.name_persian + ' ' + person.family_persian}
           </h2>
           <dl className="mt-2 flex flex-wrap text-sm leading-6 font-medium">
             <ul className="inline-block">
