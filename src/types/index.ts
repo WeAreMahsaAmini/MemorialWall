@@ -9,8 +9,10 @@ export type Person = {
   birthdate?: string;
   city: City['id'];
   isValidated: boolean;
-  full_name_persian: string;
+  name_persian: string;
+  family_persian: string;
   description?: string[];
+  happening?: Happening['id'];
   references?: Record<string, string[]>;
 };
 
@@ -26,3 +28,10 @@ export type City = {
   name_persian: string;
   province_id: Province['id'];
 };
+
+export type Happening = {
+  id: string;
+  title: string;
+  title_persian: string;
+  description?: string;
+}
