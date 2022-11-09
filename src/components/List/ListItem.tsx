@@ -1,6 +1,6 @@
 import { useRef } from 'react';
-import Image from 'next/image';
 
+import Image from 'components/MyImage';
 import { getCityProvince } from 'utils';
 
 import type { Person } from 'types';

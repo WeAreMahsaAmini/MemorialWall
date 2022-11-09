@@ -1,5 +1,6 @@
-import Image from 'next/image';
 import { useState } from 'react';
+
+import Image from 'components/MyImage';
 
 type LightBoxType = {
   src: string;
