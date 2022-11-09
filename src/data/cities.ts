@@ -43,4 +43,10 @@ export const cities: City[] = [
     name_persian: 'قزوین',
     province_id: 'qazvin',
   },
+  {
+    id: 'saqez',
+    name: 'Saqez',
+    name_persian: 'سقز',
+    province_id: 'kurdistan',
+  },
 ];

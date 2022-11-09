@@ -78,4 +78,15 @@ export const people: Person[] = [
     family_persian: 'حیدری',
     isValidated: false,
   },
+  {
+    id: '8',
+    name: 'Mahsa',
+    family: 'Amini',
+    age: 22,
+    city: 'saqez',
+    image: '/images/m/mahsa-amini.png',
+    name_persian: 'مهسا',
+    family_persian: 'امینی',
+    isValidated: true,
+  },
 ];
