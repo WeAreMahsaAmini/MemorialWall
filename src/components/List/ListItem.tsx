@@ -37,7 +37,8 @@ export default function ListItem({
       </div>
       <div className="min-w-0 relative flex-auto">
         <h2 className="font-semibold text-slate-900 truncate pr-20">
-          {person.name + ' ' + person.family} - {person.name_persian + ' ' + person.family_persian}
+          {person.name + ' ' + person.family} -{' '}
+          {person.name_persian + ' ' + person.family_persian}
         </h2>
         <dl className="mt-2 flex flex-wrap text-sm leading-6 font-medium">
           <div className="absolute top-0 right-0 flex items-center space-x-1">
