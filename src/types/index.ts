@@ -34,4 +34,4 @@ export type Happening = {
   title: string;
   title_persian: string;
   description?: string;
-}
+};
