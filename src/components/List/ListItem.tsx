@@ -30,8 +30,8 @@ export default function ListItem({
         <Image
           src={person.image}
           alt=""
-          width="60"
-          height="88"
+          width={60}
+          height={88}
           className="flex-none rounded-md bg-slate-100"
         />
       </div>

@@ -39,7 +39,7 @@ const LightBox = ({ src, alt, zIndex = 100, onClose }: LightBoxType) => {
             zIndex,
           }}
         >
-          <Image src={src} alt={alt} width="360" height="510" />
+          <Image src={src} alt={alt} width={360} height={510} />
         </div>
       ) : null}
     </div>

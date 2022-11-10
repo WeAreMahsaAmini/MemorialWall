@@ -11,8 +11,8 @@ const Modal = ({ person }: { person: Person }) => {
       <div className="p-5 flex flex-col justify-center md:flex-row">
         <div className="text-center">
           <Image
-            width="360"
-            height="510"
+            width={360}
+            height={510}
             src={person.image}
             alt={`${person.name} ${person.family} - ${
               person.name_persian + ' ' + person.family_persian
