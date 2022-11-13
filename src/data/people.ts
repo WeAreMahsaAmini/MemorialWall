@@ -88,5 +88,24 @@ export const people: Person[] = [
     name_persian: 'مهسا',
     family_persian: 'امینی',
     isValidated: true,
+    date: '22/09/2022',
+    birthdate: '20/09/2000',
+    description: [
+      'On 16 September 2022, a 22-year-old Iranian woman named Mahsa Amini, also known as Jina Amini,',
+      'died in a hospital in Tehran, Iran under suspicious circumstances. The Guidance Patrol, the ',
+      "religious morality police of Iran's government, arrested Amini for not wearing the hijab in ",
+      'accordance with government standards.',
+    ],
+    description_fa: [
+      'کشته‌شدن مهسا امینی رویدادی در جمهوری اسلامی ایران است که باعث اعتراضات و واکنش‌های گسترده‌ای در',
+      'ایران و جهان شد. مهسا امینی، دختر ۲۲ ساله ایرانی بود که در بازداشت پلیس ایران جان باخت و نامش در شبکه‌های',
+      'اجتماعی میلیون‌ها بار تکرار شد و هشتگ مهسا امینی پرتکرارترین هشتگ فضای تویتر شد.',
+    ],
+    happening: '1401',
+    references: {
+      'Wikipedia (en)': 'https://en.wikipedia.org/wiki/Death_of_Mahsa_Amini',
+      'Wikipedia (fa)':
+        'https://fa.wikipedia.org/wiki/%DA%A9%D8%B4%D8%AA%D9%87%E2%80%8C%D8%B4%D8%AF%D9%86_%D9%85%D9%87%D8%B3%D8%A7_%D8%A7%D9%85%DB%8C%D9%86%DB%8C',
+    },
   },
 ];

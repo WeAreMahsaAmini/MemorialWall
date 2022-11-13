@@ -38,7 +38,9 @@ export default function ListItem({
       <div className="min-w-0 relative flex-auto">
         <h2 className="font-semibold text-slate-900 truncate pr-20">
           {person.name + ' ' + person.family} -{' '}
-          {person.name_persian + ' ' + person.family_persian}
+          <span className="font-vazirmatn">
+            {person.name_persian + ' ' + person.family_persian}
+          </span>
         </h2>
         <dl className="mt-2 flex flex-wrap text-sm leading-6 font-medium">
           <div className="absolute top-0 right-0 flex items-center space-x-1">
@@ -46,12 +48,15 @@ export default function ListItem({
           </div>
           <ul>
             {person.date && <li>Date: {person.date}</li>}
-            {person.birthdate && <li>Birthdate: {person.birthdate}</li>}
             <li>
-              {city &&
-                `City: ${province && province.name} / ${city.name} (${
-                  city.name_persian
-                })`}
+              {city && (
+                <>
+                  City: {province && province.name} / {city.name}
+                  <span className="ml-1 font-vazirmatn">
+                    ({city.name_persian})
+                  </span>
+                </>
+              )}
             </li>
           </ul>
         </dl>
