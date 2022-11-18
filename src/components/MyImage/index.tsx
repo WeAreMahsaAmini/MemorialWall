@@ -10,14 +10,15 @@ const MyImage = ({
   className = '',
 }: {
   src: string;
-  width: string;
-  height: string;
+  width: number;
+  height: number;
   alt?: string;
   className?: string;
 }) => {
   return (
     <Image
       loader={cloudflareNoqualityLoader}
+      unoptimized
       src={src}
       alt={alt}
       width={width}

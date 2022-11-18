@@ -12,8 +12,9 @@ export type Person = {
   name_persian: string;
   family_persian: string;
   description?: string[];
+  description_fa?: string[];
   happening?: Happening['id'];
-  references?: Record<string, string[]>;
+  references?: Record<string, string>;
 };
 
 export type Province = {
