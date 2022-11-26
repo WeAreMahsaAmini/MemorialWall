@@ -9,6 +9,10 @@ export const readProvinces = async () => {
 };
 
 export const findProvince = (id: string) => {
+  if (!provinces) {
+    throw 'Provinces are not loaded!';
+  }
+
   return provinces.find((pr) => pr.id === id);
 };
 
