@@ -1,5 +1,5 @@
 import Image from 'components/MyImage';
-import { getCityProvince } from 'utils';
+import { getCityProvince, getImage } from 'utils';
 
 import type { Person } from 'types';
 
@@ -13,7 +13,7 @@ const Modal = ({ person }: { person: Person }) => {
           <Image
             width={360}
             height={510}
-            src={person.image}
+            src={getImage(person.image)}
             alt={`${person.name} ${person.family} - ${
               person.name_persian + ' ' + person.family_persian
             }`}
@@ -29,12 +29,14 @@ const Modal = ({ person }: { person: Person }) => {
             </div>
             <div className="border-t border-gray-200">
               <dl>
-                <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                  <dt className="text-sm font-medium text-gray-500">Age</dt>
-                  <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
-                    {person.age}
-                  </dd>
-                </div>
+                {person.age && (
+                  <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-sm font-medium text-gray-500">Age</dt>
+                    <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
+                      {person.age}
+                    </dd>
+                  </div>
+                )}
                 {person.date && (
                   <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                     <dt className="text-sm font-medium text-gray-500">Date</dt>
