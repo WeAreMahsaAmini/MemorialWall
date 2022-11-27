@@ -9,6 +9,10 @@ export const readCities = async () => {
 };
 
 export const findCity = (id: string) => {
+  if (!cities) {
+    throw 'Cities are not loaded!';
+  }
+
   return cities.find((ct) => ct.id === id);
 };
 
@@ -21,5 +25,6 @@ export const updateCity = (city: City) => {
 };
 
 export const writeCities = () => {
+  writeFile('cities.zip', JSON.stringify(cities));
   writeFile('cities', JSON.stringify(cities, null, 2).replace(/\\n/g, ''));
 };

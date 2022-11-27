@@ -17,7 +17,7 @@ const fetch = async (req: NextApiRequest, res: NextApiResponse) => {
     );
   }
 
-  await updateSheetData('2022!A2:A300', values);
+  await updateSheetData('2022!C2:C300', values);
 
   res.status(200).json({ values });
 };

@@ -69,22 +69,26 @@ export const getFile = async (fileId: string, title: string) => {
 
   const fileName =
     title + '--' + fileId + '.' + extension(file.headers['content-type']);
+  const path = `/images/${title.charAt(0)}/${fileName}`;
+  const relatedPath = 'public' + path;
 
-  const fileWrite = fs.createWriteStream('public/images/' + fileName);
-  fileWrite.on('finish', function () {
-    console.log('downloaded', fileName);
-  });
+  if (!fs.existsSync(relatedPath)) {
+    const fileWrite = fs.createWriteStream(relatedPath);
+    fileWrite.on('finish', function () {
+      // console.log('downloaded', fileName);
+    });
 
-  if (file) {
-    file.data
-      .on('end', () => {
-        console.log('Done');
-      })
-      .on('error', (err) => {
-        console.log('Error', err);
-      })
-      .pipe(fileWrite);
+    if (file) {
+      file.data
+        .on('end', () => {
+          // console.log('Done');
+        })
+        .on('error', () => {
+          // console.log('Error', err);
+        })
+        .pipe(fileWrite);
+    }
   }
 
-  return file;
+  return { path };
 };

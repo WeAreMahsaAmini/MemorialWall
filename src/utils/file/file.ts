@@ -1,10 +1,13 @@
 import fs from 'fs';
 
-type dataTypes = 'people' | 'provinces' | 'cities';
+type Models = 'people' | 'provinces' | 'cities';
 
-const fileUrl = (type: dataTypes) => process.cwd() + `/data/${type}.json`;
+type DataTypes = Models | `${Models}.zip`;
 
-export const readFile = async (type: dataTypes) => {
+const fileUrl = (type: DataTypes) =>
+  process.cwd() + `/public/data/${type}.json`;
+
+export const readFile = async (type: DataTypes) => {
   return new Promise((resolve, reject) => {
     fs.readFile(fileUrl(type), (error, data) => {
       if (error) reject(error);
@@ -16,6 +19,6 @@ export const readFile = async (type: dataTypes) => {
   });
 };
 
-export const writeFile = (type: dataTypes, file: string) => {
+export const writeFile = (type: DataTypes, file: string) => {
   fs.writeFileSync(fileUrl(type), file);
 };

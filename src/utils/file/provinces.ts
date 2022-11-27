@@ -25,6 +25,7 @@ export const updateProvince = (province: Province) => {
 };
 
 export const writeProvinces = () => {
+  writeFile('provinces.zip', JSON.stringify(provinces));
   writeFile(
     'provinces',
     JSON.stringify(provinces, null, 2).replace(/\\n/g, '')

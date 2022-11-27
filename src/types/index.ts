@@ -10,11 +10,11 @@ export type Person = {
   family: string;
   image?: string;
   date?: string;
-  createdAt: Date;
-  updatedAt: string;
+  reason?: string;
   city: City['id'];
   images?: string[];
   birthdate?: string;
+  hashtags?: string[];
   isValidated: boolean;
   name_persian: string;
   family_persian: string;
