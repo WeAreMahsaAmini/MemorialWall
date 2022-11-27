@@ -75,7 +75,7 @@ export const getFile = async (fileId: string, title: string) => {
   if (!fs.existsSync(relatedPath)) {
     const fileWrite = fs.createWriteStream(relatedPath);
     fileWrite.on('finish', function () {
-      // console.log('downloaded', fileName);
+      console.log('downloaded', relatedPath);
     });
 
     if (file) {
@@ -83,8 +83,8 @@ export const getFile = async (fileId: string, title: string) => {
         .on('end', () => {
           // console.log('Done');
         })
-        .on('error', () => {
-          // console.log('Error', err);
+        .on('error', (err) => {
+          console.log('Error on ', relatedPath, err);
         })
         .pipe(fileWrite);
     }
