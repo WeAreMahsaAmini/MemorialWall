@@ -1,0 +1,219 @@
+[
+  {
+    "id": "alborz",
+    "name": "Alborz",
+    "name_persian": "البرز",
+    "updated_at": "11/26/2022, 8:53:00 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "ardabil",
+    "name": "Ardabil",
+    "name_persian": "اردبیل",
+    "updated_at": "11/26/2022, 8:57:58 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "azerbaijan-east",
+    "name": "Azerbaijan, East",
+    "name_persian": "آذربایجان شرقی",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "azerbaijan-west",
+    "name": "Azerbaijan, West",
+    "name_persian": "آذربایجان غربی",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "bushehr",
+    "name": "Bushehr",
+    "name_persian": "بوشهر",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "chahar-mahaal-and-bakhtiari",
+    "name": "Chahar Mahaal and Bakhtiari",
+    "name_persian": "چهارمحال و بختیاری",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "fars",
+    "name": "Fars",
+    "name_persian": "فارس",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "gilan",
+    "name": "Gilan",
+    "name_persian": "گیلان",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "golestan",
+    "name": "Golestan",
+    "name_persian": "گلستان",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "hamadan",
+    "name": "Hamadan",
+    "name_persian": "همدان",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "hormozgan",
+    "name": "Hormozgān",
+    "name_persian": "هرمزگان",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "ilam",
+    "name": "Ilam",
+    "name_persian": "ایلام",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "isfahan",
+    "name": "Isfahan",
+    "name_persian": "اصفهان",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "kerman",
+    "name": "Kerman",
+    "name_persian": "کرمان",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "kermanshah",
+    "name": "Kermanshah",
+    "name_persian": "کرمانشاه",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "khorasan-north",
+    "name": "Khorasan, North",
+    "name_persian": "خراسان شمالی",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "khorasan-razavi",
+    "name": "Khorasan, Razavi",
+    "name_persian": "خراسان رضوی",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "khorasan-south",
+    "name": "Khorasan, South",
+    "name_persian": "خراسان جنوبی",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "khuzestan",
+    "name": "Khuzestan",
+    "name_persian": "خوزستان",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "kohgiluyeh-and-boyer-ahmad",
+    "name": "Kohgiluyeh and Boyer-Ahmad",
+    "name_persian": "کهکیلویه و بویراحمد",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "kurdistan",
+    "name": "Kurdistan",
+    "name_persian": "کردستان",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "lorestan",
+    "name": "Lorestan",
+    "name_persian": "لرستان",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "markazi",
+    "name": "Markazi",
+    "name_persian": "مرکزی",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "mazandaran",
+    "name": "Mazandaran",
+    "name_persian": "مازندران",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "qazvin",
+    "name": "Qazvin",
+    "name_persian": "قزوین",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "qom",
+    "name": "Qom",
+    "name_persian": "قم",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "semnan",
+    "name": "Semnan",
+    "name_persian": "سمنان",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "sistan-and-baluchestan",
+    "name": "Sistan and Baluchestan",
+    "name_persian": "سیستان و بلوچستان",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "tehran",
+    "name": "Tehran",
+    "name_persian": "تهران",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "yazd",
+    "name": "Yazd",
+    "name_persian": "یزد",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  },
+  {
+    "id": "zanjan",
+    "name": "Zanjan",
+    "name_persian": "زنجان",
+    "updated_at": "11/26/2022, 9:01:28 PM",
+    "uploaded_at": "11/27/2022, 1:03:56 AM"
+  }
+]

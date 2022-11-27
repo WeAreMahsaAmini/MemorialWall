@@ -65,18 +65,7 @@ const fetchPeople = async (
       });
     }
 
-    if (row[12]) {
-      const imgId = row[12]
-        .replace('https://drive.google.com/file/d/', '')
-        .replace('/view?usp=sharing', '');
-
-      const img = await getFile(imgId, row[2]);
-
-      image = img.path;
-    }
-
     const person: Person = {
-      image,
       media,
       hashtags,
       id: row[2],
@@ -98,6 +87,22 @@ const fetchPeople = async (
     };
 
     const localPerson = findLocalPerson(person.id);
+
+    if (row[12]) {
+      const imgId = row[12]
+        .replace('https://drive.google.com/file/d/', '')
+        .replace('/view?usp=sharing', '');
+
+      if (!localPerson?.image || !localPerson?.image?.includes(imgId)) {
+        const img = await getFile(imgId, row[2]);
+
+        image = img.path;
+      } else {
+        image = localPerson.image;
+      }
+    }
+
+    person.image = image;
 
     if (isDataNew(person) || isLocalOld(person, localPerson)) {
       applyLastUploaded(person);
