@@ -1,7 +1,11 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { useContext, PropsWithChildren, createContext, useState } from 'react';
 
+// @ts-ignore
 import peopleData from '/public/data/people.zip.json' assert { type: 'JSON' };
+// @ts-ignore
 import citiesData from '/public/data/cities.zip.json' assert { type: 'JSON' };
+// @ts-ignore
 import provincesData from '/public/data/provinces.zip.json' assert { type: 'JSON' };
 
 import type { Person, City, Province } from 'types';

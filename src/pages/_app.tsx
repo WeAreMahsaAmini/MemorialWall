@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app';
 
-import { DataProvider } from 'providers/data-provider'; // import based on where you put it
+import { DataProvider } from 'providers/data-provider';
 
 import 'styles/globals.css';
 
