@@ -26,5 +26,3 @@ export const applyLastUploaded = (province: Province) => {
 
   return province;
 };
-
-export { default as getCityProvince } from './getCityProvince';

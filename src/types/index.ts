@@ -18,11 +18,11 @@ export type Person = {
   isValidated: boolean;
   name_persian: string;
   family_persian: string;
-  description?: string[];
-  description_fa?: string[];
+  description: string[];
+  description_fa: string[];
   happening?: Happening['id'];
-  media?: Record<string, string>;
-  references?: Record<string, string>;
+  media: Record<string, string>;
+  references: Record<string, string>;
 } & Timing;
 
 export type Province = {

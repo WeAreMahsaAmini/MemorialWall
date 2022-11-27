@@ -3,17 +3,19 @@ import { useModal, Modal } from 'react-morphing-modal';
 import 'react-morphing-modal/dist/ReactMorphingModal.css';
 
 import Nav from 'components/Nav';
-import NavItem from 'components/Nav/NavItem';
 import List from 'components/List';
-import ListItem from 'components/List/ListItem';
 import PersonModal from 'components/Modal';
+import NavItem from 'components/Nav/NavItem';
+import ListItem from 'components/List/ListItem';
 
-import { people } from 'data';
+import { useData } from 'providers/data-provider';
 
 import type { Person } from 'types';
 
-const Home = ({ people }: { people: Person[] }) => {
+const Home = () => {
+  const { people } = useData();
   const [person, setPerson] = useState<Person>();
+
   const { modalProps, open: openModal } = useModal();
 
   const onPersonClick = (
@@ -49,13 +51,5 @@ const Home = ({ people }: { people: Person[] }) => {
     </div>
   );
 };
-
-export async function getStaticProps() {
-  return {
-    props: {
-      people,
-    },
-  };
-}
 
 export default Home;

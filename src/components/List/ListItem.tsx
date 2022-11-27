@@ -1,7 +1,9 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 import Image from 'components/MyImage';
-import { getCityProvince, getImage } from 'utils';
+
+import { getImage } from 'utils';
+import { useData } from 'providers/data-provider';
 
 import type { Person } from 'types';
 
@@ -14,7 +16,10 @@ export default function ListItem({
   onClick: (ref: React.MutableRefObject<unknown>, person: Person) => void;
 }) {
   const clickRef = useRef(null);
-  const { city, province } = getCityProvince(person.city);
+  const { getCity, getProvince } = useData();
+
+  const [city] = useState(getCity(person.city));
+  const [province] = useState(getProvince(city.province_id));
 
   function handleClick() {
     onClick(clickRef, person);

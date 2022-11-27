@@ -1,10 +1,17 @@
+import { useState } from 'react';
+
 import Image from 'components/MyImage';
-import { getCityProvince, getImage } from 'utils';
+
+import { getImage } from 'utils';
+import { useData } from 'providers/data-provider';
 
 import type { Person } from 'types';
 
 const Modal = ({ person }: { person: Person }) => {
-  const { city, province } = getCityProvince(person.city);
+  const { getCity, getProvince } = useData();
+
+  const [city] = useState(getCity(person.city));
+  const [province] = useState(getProvince(city.province_id));
 
   return (
     <div className="absolute inset-0 bg-gray-500 bg-opacity-50 overflow-scroll">
@@ -68,27 +75,61 @@ const Modal = ({ person }: { person: Person }) => {
                   </div>
                 )}
 
-                {person.description_fa && (
+                {person.description_fa.length && (
                   <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                     <dt className="text-sm font-medium text-gray-500">
                       Description
                     </dt>
                     <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0 fa font-vazirmatn">
-                      {`${person.description_fa.join('')})`}
+                      {`${person.description_fa.join('')}`}
                     </dd>
                   </div>
                 )}
-                {person.description && (
+                {person.description.length && (
                   <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                     <dt className="text-sm font-medium text-gray-500">
                       Description
                     </dt>
                     <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
-                      {`${person.description.join('')})`}
+                      {`${person.description.join('')}`}
                     </dd>
                   </div>
                 )}
-                {person.references && (
+                {Object.keys(person.media).length !== 0 && (
+                  <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-sm font-medium text-gray-500">Media</dt>
+                    <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
+                      <ul
+                        role="list"
+                        className="divide-y divide-gray-200 rounded-md border border-gray-200"
+                      >
+                        {Object.entries(person.media).map((ref) => (
+                          <li
+                            className="flex items-center justify-between py-3 pl-3 pr-4 text-sm"
+                            key={ref[0]}
+                          >
+                            <div className="flex w-0 flex-1 items-center">
+                              <span className="ml-2 w-0 flex-1 truncate">
+                                {ref[0]}
+                              </span>
+                            </div>
+                            <div className="ml-4 flex-shrink-0">
+                              <a
+                                href={ref[1]}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="font-medium text-indigo-600 hover:text-indigo-500"
+                              >
+                                Visit
+                              </a>
+                            </div>
+                          </li>
+                        ))}
+                      </ul>
+                    </dd>
+                  </div>
+                )}
+                {Object.keys(person.references).length !== 0 && (
                   <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                     <dt className="text-sm font-medium text-gray-500">
                       References
