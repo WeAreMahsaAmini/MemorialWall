@@ -1,0 +1,62 @@
+[
+  {
+    "media": {
+      "CNN: Clashes in Iran as thousands gather at Mahsa Amini’s grave, 40 days after her death": "https://edition.cnn.com/2022/10/26/middleeast/iran-clashes-mahsa-amini-grave-intl/index.html",
+      "DW": "https://www.dw.com/en/jina-mahsa-amini/t-63431146"
+    },
+    "hashtags": [
+      "#MahsaAmini",
+      "#مهسا_امینی"
+    ],
+    "id": "ma2",
+    "references": {
+      "Wikipedia (en)": "https://en.wikipedia.org/wiki/Death_of_Mahsa_Amini",
+      "Wikipedia (fa)": "https://fa.wikipedia.org/wiki/%DA%A9%D8%B4%D8%AA%D9%87%E2%80%8C%D8%B4%D8%AF%D9%86_%D9%85%D9%87%D8%B3%D8%A7_%D8%A7%D9%85%DB%8C%D9%86%DB%8C"
+    },
+    "description": [
+      "On 16 September 2022, a 22-year-old Iranian woman named Mahsa Amini, also known as Jina Amini, died in a hospital in Tehran, Iran under suspicious circumstances. The Guidance Patrol, the religious morality police of Iran's government, arrested Amini for not wearing the hijab in accordance with government standards."
+    ],
+    "isValidated": true,
+    "age": "22",
+    "name": "Mahsa1",
+    "city": "saqez",
+    "date": "September 10, 2022",
+    "description_fa": [
+      "کشته‌شدن مهسا امینی رویدادی در جمهوری اسلامی ایران است که باعث اعتراضات و واکنش‌های گسترده‌ای در ایران و جهان شد. مهسا امینی، دختر ۲۲ ساله ایرانی بود که در بازداشت پلیس ایران جان باخت و نامش در شبکه‌های اجتماعی میلیون‌ها بار تکرار شد و هشتگ مهسا امینی پرتکرارترین هشتگ فضای تویتر شد."
+    ],
+    "family": "Amini",
+    "reason": "Detained and beaten by \"Morality Police\" and died in the hospital ",
+    "birthdate": "09/20/2000",
+    "updated_at": "11/27/2022, 2:33:47 PM",
+    "uploaded_at": "11/27/2022, 2:33:47 PM",
+    "name_persian": "مهسا (ژینا) ",
+    "family_persian": "امینی",
+    "image": "/images/m/ma2--1QN4myKLglwhYG55G4j3JwGb0897rBXZz.png"
+  },
+  {
+    "media": {
+      "CNN: What really happened to Nika Shahkarami? Witnesses to her final hours cast doubt on Iran’s story": "https://edition.cnn.com/2022/10/27/middleeast/iran-nika-shahkarami-investigation-intl-cmd/index.html"
+    },
+    "hashtags": [
+      "#NikaShakarami",
+      " #نیکا_شاکرمی"
+    ],
+    "id": "ns3",
+    "references": {},
+    "description": [],
+    "isValidated": false,
+    "age": "16",
+    "name": "Nika1",
+    "city": "khorramabad",
+    "date": "September 20, 2022",
+    "description_fa": [],
+    "family": "Shakarami",
+    "reason": "Detained by security force and physically assulted and killed ",
+    "birthdate": "",
+    "updated_at": "11/27/2022, 2:33:48 PM",
+    "uploaded_at": "11/27/2022, 2:33:48 PM",
+    "name_persian": "نیکا ",
+    "family_persian": "شاکرمی",
+    "image": "/images/n/ns3--1vz2_JZ1bdgwwpnRm-LZDnh-Bvt2CiLXS.webp"
+  }
+]
