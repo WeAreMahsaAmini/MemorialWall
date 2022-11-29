@@ -91,7 +91,8 @@ const fetchPeople = async (
     if (row[12]) {
       const imgId = row[12]
         .replace('https://drive.google.com/file/d/', '')
-        .replace('/view?usp=sharing', '');
+        .replace('/view?usp=sharing', '')
+        .replace('/view?usp=share_link', '');
 
       if (!localPerson?.image || !localPerson?.image?.includes(imgId)) {
         const img = await getFile(imgId, row[2]);
