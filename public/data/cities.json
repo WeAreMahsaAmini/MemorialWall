@@ -222,5 +222,37 @@
     "province_id": "sistan-and-baluchestan",
     "updated_at": "11/26/2022, 11:04:45 PM",
     "uploaded_at": "11/27/2022, 12:42:22 AM"
+  },
+  {
+    "id": "parand",
+    "name": "Parand",
+    "name_persian": "پرند",
+    "province_id": "tehran",
+    "updated_at": "11/29/2022, 7:54:22 PM",
+    "uploaded_at": "11/29/2022, 7:54:22 PM"
+  },
+  {
+    "id": "mahabad",
+    "name": "Mahabad",
+    "name_persian": "مهاباد",
+    "province_id": "azerbaijan-west",
+    "updated_at": "11/29/2022, 7:55:08 PM",
+    "uploaded_at": "11/29/2022, 7:55:08 PM"
+  },
+  {
+    "id": "baneh",
+    "name": "Baneh",
+    "name_persian": "بانه",
+    "province_id": "kurdistan",
+    "updated_at": "11/29/2022, 7:55:49 PM",
+    "uploaded_at": "11/29/2022, 7:55:49 PM"
+  },
+  {
+    "id": "arak",
+    "name": "Arak",
+    "name_persian": "اراک",
+    "province_id": "markazi",
+    "updated_at": "11/29/2022, 7:56:46 PM",
+    "uploaded_at": "11/29/2022, 7:56:46 PM"
   }
 ]
