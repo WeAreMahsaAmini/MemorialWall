@@ -302,5 +302,13 @@
     "province_id": "mazandaran",
     "updated_at": "11/29/2022, 8:07:17 PM",
     "uploaded_at": "11/29/2022, 8:07:17 PM"
+  },
+  {
+    "id": "shahriar",
+    "name": "Shahriar",
+    "name_persian": "شهریار",
+    "province_id": "tehran",
+    "updated_at": "11/29/2022, 8:10:17 PM",
+    "uploaded_at": "11/29/2022, 8:10:17 PM"
   }
 ]
