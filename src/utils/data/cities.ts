@@ -2,7 +2,7 @@ import { get, update } from 'utils/api';
 
 const ranges = [
   ['A', 2],
-  ['F', 50],
+  ['F', 100],
 ];
 
 const sheetRange = `Cities!${
