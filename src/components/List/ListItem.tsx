@@ -1,7 +1,9 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 import Image from 'components/MyImage';
-import { getCityProvince } from 'utils';
+
+import { getImage } from 'utils';
+import { useData } from 'providers/data-provider';
 
 import type { Person } from 'types';
 
@@ -14,7 +16,10 @@ export default function ListItem({
   onClick: (ref: React.MutableRefObject<unknown>, person: Person) => void;
 }) {
   const clickRef = useRef(null);
-  const { city, province } = getCityProvince(person.city);
+  const { getCity, getProvince } = useData();
+
+  const [city] = useState(getCity(person.city));
+  const [province] = useState(getProvince(city.province_id));
 
   function handleClick() {
     onClick(clickRef, person);
@@ -28,10 +33,10 @@ export default function ListItem({
     >
       <div>
         <Image
-          src={person.image}
           alt=""
           width={60}
           height={88}
+          src={getImage(person.image)}
           className="flex-none rounded-md bg-slate-100"
         />
       </div>
@@ -43,9 +48,11 @@ export default function ListItem({
           </span>
         </h2>
         <dl className="mt-2 flex flex-wrap text-sm leading-6 font-medium">
-          <div className="absolute top-0 right-0 flex items-center space-x-1">
-            <dd>Age: {person.age}</dd>
-          </div>
+          {person.age && (
+            <div className="absolute top-0 right-0 flex items-center space-x-1">
+              <dd>Age: {person.age}</dd>
+            </div>
+          )}
           <ul>
             {person.date && <li>Date: {person.date}</li>}
             <li>
