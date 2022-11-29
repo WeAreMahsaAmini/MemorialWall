@@ -168,7 +168,7 @@
     "uploaded_at": "11/27/2022, 12:42:22 AM"
   },
   {
-    "id": "Ahvaz",
+    "id": "ahvaz",
     "name": "Ahvaz",
     "name_persian": "اهواز",
     "province_id": "khuzestan",
@@ -222,5 +222,261 @@
     "province_id": "sistan-and-baluchestan",
     "updated_at": "11/26/2022, 11:04:45 PM",
     "uploaded_at": "11/27/2022, 12:42:22 AM"
+  },
+  {
+    "id": "parand",
+    "name": "Parand",
+    "name_persian": "پرند",
+    "province_id": "tehran",
+    "updated_at": "11/29/2022, 7:54:22 PM",
+    "uploaded_at": "11/29/2022, 7:54:22 PM"
+  },
+  {
+    "id": "mahabad",
+    "name": "Mahabad",
+    "name_persian": "مهاباد",
+    "province_id": "azerbaijan-west",
+    "updated_at": "11/29/2022, 7:55:08 PM",
+    "uploaded_at": "11/29/2022, 7:55:08 PM"
+  },
+  {
+    "id": "baneh",
+    "name": "Baneh",
+    "name_persian": "بانه",
+    "province_id": "kurdistan",
+    "updated_at": "11/29/2022, 7:55:49 PM",
+    "uploaded_at": "11/29/2022, 7:55:49 PM"
+  },
+  {
+    "id": "arak",
+    "name": "Arak",
+    "name_persian": "اراک",
+    "province_id": "markazi",
+    "updated_at": "11/29/2022, 7:56:46 PM",
+    "uploaded_at": "11/29/2022, 7:56:46 PM"
+  },
+  {
+    "id": "qasreshirin",
+    "name": "Qasreshirin",
+    "name_persian": "قصر شیرین",
+    "province_id": "kermanshah",
+    "updated_at": "11/29/2022, 8:01:26 PM",
+    "uploaded_at": "11/29/2022, 8:01:26 PM"
+  },
+  {
+    "id": "lahijan",
+    "name": "Lahijan",
+    "name_persian": "لاهیجان",
+    "province_id": "gilan",
+    "updated_at": "11/29/2022, 8:02:09 PM",
+    "uploaded_at": "11/29/2022, 8:02:09 PM"
+  },
+  {
+    "id": "hamedan",
+    "name": "Hamedan",
+    "name_persian": "همدان",
+    "province_id": "hamedan",
+    "updated_at": "11/29/2022, 8:04:07 PM",
+    "uploaded_at": "11/29/2022, 8:04:07 PM"
+  },
+  {
+    "id": "dezful",
+    "name": "Dezful",
+    "name_persian": "دزفول",
+    "province_id": "khuzestan",
+    "updated_at": "11/29/2022, 8:05:40 PM",
+    "uploaded_at": "11/29/2022, 8:05:40 PM"
+  },
+  {
+    "id": "talesh",
+    "name": "Talesh",
+    "name_persian": "تالش",
+    "province_id": "gilan",
+    "updated_at": "11/29/2022, 8:06:30 PM",
+    "uploaded_at": "11/29/2022, 8:06:30 PM"
+  },
+  {
+    "id": "qaemshahr",
+    "name": "Qaemshahr",
+    "name_persian": "قائم‌شهر",
+    "province_id": "mazandaran",
+    "updated_at": "11/29/2022, 8:07:17 PM",
+    "uploaded_at": "11/29/2022, 8:07:17 PM"
+  },
+  {
+    "id": "shahriar",
+    "name": "Shahriar",
+    "name_persian": "شهریار",
+    "province_id": "tehran",
+    "updated_at": "11/29/2022, 8:10:17 PM",
+    "uploaded_at": "11/29/2022, 8:10:17 PM"
+  },
+  {
+    "id": "marivan",
+    "name": "Marivan",
+    "name_persian": "مریوان",
+    "province_id": "kurdistan",
+    "updated_at": "11/29/2022, 8:15:40 PM",
+    "uploaded_at": "11/29/2022, 8:15:40 PM"
+  },
+  {
+    "id": "babol",
+    "name": "Babol",
+    "name_persian": "بابل",
+    "province_id": "mazandaran",
+    "updated_at": "11/29/2022, 8:19:26 PM",
+    "uploaded_at": "11/29/2022, 8:19:26 PM"
+  },
+  {
+    "id": "sari",
+    "name": "Sari",
+    "name_persian": "ساری",
+    "province_id": "mazandaran",
+    "updated_at": "11/29/2022, 8:20:39 PM",
+    "uploaded_at": "11/29/2022, 8:20:39 PM"
+  },
+  {
+    "id": "quchan",
+    "name": "Quchan",
+    "name_persian": "قوچان",
+    "province_id": "khorasan-razavi",
+    "updated_at": "11/29/2022, 8:22:12 PM",
+    "uploaded_at": "11/29/2022, 8:22:12 PM"
+  },
+  {
+    "id": "qazvin",
+    "name": "Qazvin",
+    "name_persian": "قزوین",
+    "province_id": "qazvin",
+    "updated_at": "11/29/2022, 8:24:55 PM",
+    "uploaded_at": "11/29/2022, 8:24:55 PM"
+  },
+  {
+    "id": "eslamabad-e-gharb",
+    "name": "Eslamabad-E-Gharb",
+    "name_persian": "اسلام‌آباد غرب",
+    "province_id": "kermanshah",
+    "updated_at": "11/29/2022, 8:26:02 PM",
+    "uploaded_at": "11/29/2022, 8:26:02 PM"
+  },
+  {
+    "id": "langrud",
+    "name": "Langrud",
+    "name_persian": "لنگرود",
+    "province_id": "gilan",
+    "updated_at": "11/29/2022, 8:26:52 PM",
+    "uploaded_at": "11/29/2022, 8:26:52 PM"
+  },
+  {
+    "id": "khorramdasht",
+    "name": "Khorramdasht",
+    "name_persian": "خرمدشت",
+    "province_id": "qazvin",
+    "updated_at": "11/29/2022, 8:27:47 PM",
+    "uploaded_at": "11/29/2022, 8:27:47 PM"
+  },
+  {
+    "id": "hashtgerd",
+    "name": "Hashtgerd",
+    "name_persian": "هشتگرد",
+    "province_id": "alborz",
+    "updated_at": "11/29/2022, 8:28:56 PM",
+    "uploaded_at": "11/29/2022, 8:28:56 PM"
+  },
+  {
+    "id": "rezvanshahr",
+    "name": "Rezvanshahr",
+    "name_persian": "رزوانشهر",
+    "province_id": "isfahan",
+    "updated_at": "11/29/2022, 8:37:01 PM",
+    "uploaded_at": "11/29/2022, 8:37:01 PM"
+  },
+  {
+    "id": "isfahan",
+    "name": "Isfahan",
+    "name_persian": "اصفهان",
+    "province_id": "isfahan",
+    "updated_at": "11/29/2022, 8:45:13 PM",
+    "uploaded_at": "11/29/2022, 8:45:13 PM"
+  },
+  {
+    "id": "dehdasht-kohgiluyeh",
+    "name": "Dehdasht",
+    "name_persian": "دهدشت",
+    "province_id": "kohgiluyeh-and-boyer-ahmad",
+    "updated_at": "11/29/2022, 8:45:13 PM",
+    "uploaded_at": "11/29/2022, 8:45:13 PM"
+  },
+  {
+    "id": "bandar-anzali",
+    "name": "Bandar Anzali",
+    "name_persian": "بندر انزلی",
+    "province_id": "gilan",
+    "updated_at": "11/29/2022, 8:45:13 PM",
+    "uploaded_at": "11/29/2022, 8:45:13 PM"
+  },
+  {
+    "id": "ilam",
+    "name": "Ilam",
+    "name_persian": "ایلام",
+    "province_id": "ilam",
+    "updated_at": "11/29/2022, 8:45:13 PM",
+    "uploaded_at": "11/29/2022, 8:45:13 PM"
+  },
+  {
+    "id": "shahr-e-rey",
+    "name": "Shahr-e-Rey",
+    "name_persian": "شهرری",
+    "province_id": "tehran",
+    "updated_at": "11/29/2022, 8:45:13 PM",
+    "uploaded_at": "11/29/2022, 8:45:13 PM"
+  },
+  {
+    "id": "dehgolan",
+    "name": "Dehgolan",
+    "name_persian": "دهگلان",
+    "province_id": "kurdistan",
+    "updated_at": "11/29/2022, 8:45:13 PM",
+    "uploaded_at": "11/29/2022, 8:45:13 PM"
+  },
+  {
+    "id": "bushehr",
+    "name": "Bushehr",
+    "name_persian": "بوشهر",
+    "province_id": "bushehr",
+    "updated_at": "11/29/2022, 8:45:13 PM",
+    "uploaded_at": "11/29/2022, 8:45:13 PM"
+  },
+  {
+    "id": "shahrak-e-qods",
+    "name": "Shahrak-e Qods",
+    "name_persian": "شهرک قدس",
+    "province_id": "tehran",
+    "updated_at": "11/29/2022, 8:45:13 PM",
+    "uploaded_at": "11/29/2022, 8:45:13 PM"
+  },
+  {
+    "id": "kamyaran",
+    "name": "Kamyaran",
+    "name_persian": "کامیاران",
+    "province_id": "kermanshah",
+    "updated_at": "11/29/2022, 8:45:13 PM",
+    "uploaded_at": "11/29/2022, 8:45:13 PM"
+  },
+  {
+    "id": "izeh",
+    "name": "Izeh",
+    "name_persian": "ایذه",
+    "province_id": "khuzestan",
+    "updated_at": "11/29/2022, 8:45:13 PM",
+    "uploaded_at": "11/29/2022, 8:45:13 PM"
+  },
+  {
+    "id": "divandarreh",
+    "name": "Divandarreh",
+    "name_persian": "دیواندره",
+    "province_id": "kurdistan",
+    "updated_at": "11/29/2022, 8:47:17 PM",
+    "uploaded_at": "11/29/2022, 8:47:17 PM"
   }
 ]
