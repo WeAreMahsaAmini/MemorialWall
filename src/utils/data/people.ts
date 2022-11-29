@@ -2,7 +2,7 @@ import { get, update } from 'utils/api';
 
 const ranges = [
   ['A', 2],
-  ['S', 180],
+  ['S', 210],
 ];
 
 const sheetRange = `2022!${

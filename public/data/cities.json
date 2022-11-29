@@ -310,5 +310,77 @@
     "province_id": "tehran",
     "updated_at": "11/29/2022, 8:10:17 PM",
     "uploaded_at": "11/29/2022, 8:10:17 PM"
+  },
+  {
+    "id": "marivan",
+    "name": "Marivan",
+    "name_persian": "مریوان",
+    "province_id": "kurdistan",
+    "updated_at": "11/29/2022, 8:15:40 PM",
+    "uploaded_at": "11/29/2022, 8:15:40 PM"
+  },
+  {
+    "id": "babol",
+    "name": "Babol",
+    "name_persian": "بابل",
+    "province_id": "mazandaran",
+    "updated_at": "11/29/2022, 8:19:26 PM",
+    "uploaded_at": "11/29/2022, 8:19:26 PM"
+  },
+  {
+    "id": "sari",
+    "name": "Sari",
+    "name_persian": "ساری",
+    "province_id": "mazandaran",
+    "updated_at": "11/29/2022, 8:20:39 PM",
+    "uploaded_at": "11/29/2022, 8:20:39 PM"
+  },
+  {
+    "id": "quchan",
+    "name": "Quchan",
+    "name_persian": "قوچان",
+    "province_id": "khorasan-razavi",
+    "updated_at": "11/29/2022, 8:22:12 PM",
+    "uploaded_at": "11/29/2022, 8:22:12 PM"
+  },
+  {
+    "id": "qazvin",
+    "name": "Qazvin",
+    "name_persian": "قزوین",
+    "province_id": "qazvin",
+    "updated_at": "11/29/2022, 8:24:55 PM",
+    "uploaded_at": "11/29/2022, 8:24:55 PM"
+  },
+  {
+    "id": "eslamabad-e-gharb",
+    "name": "Eslamabad-E-Gharb",
+    "name_persian": "اسلام‌آباد غرب",
+    "province_id": "kermanshah",
+    "updated_at": "11/29/2022, 8:26:02 PM",
+    "uploaded_at": "11/29/2022, 8:26:02 PM"
+  },
+  {
+    "id": "langrud",
+    "name": "Langrud",
+    "name_persian": "لنگرود",
+    "province_id": "gilan",
+    "updated_at": "11/29/2022, 8:26:52 PM",
+    "uploaded_at": "11/29/2022, 8:26:52 PM"
+  },
+  {
+    "id": "khorramdasht",
+    "name": "Khorramdasht",
+    "name_persian": "خرمدشت",
+    "province_id": "qazvin",
+    "updated_at": "11/29/2022, 8:27:47 PM",
+    "uploaded_at": "11/29/2022, 8:27:47 PM"
+  },
+  {
+    "id": "hashtgerd",
+    "name": "Hashtgerd",
+    "name_persian": "هشتگرد",
+    "province_id": "alborz",
+    "updated_at": "11/29/2022, 8:28:56 PM",
+    "uploaded_at": "11/29/2022, 8:28:56 PM"
   }
 ]
